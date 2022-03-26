@@ -1,20 +1,21 @@
 
-package SuperAutoPets.Animales.Mamifero;
+package SuperAutoPets.Animales.Volador;
 
 import SuperAutoPets.Animales.Terrestre.Terrestre;
 
 
-public class Elefante implements Mamifero, Terrestre{
+public class Chompipe implements Volador, Terrestre {
     
-    //Pertenece a tier 2
-    //Daño colateral: Inflige 1 daño a 1/2/3 amigos detrás antes de atacar
+    //Pertenece a tier 5
+    //Solidaridad: Le da (+3/+3)/(+6/+6)/(+9/+9) a un aliado invocado.
     
-    public Elefante() {
+    public Chompipe() {
+        
         
     }
 
     @Override
-    public void AtributosMamifero(int attack, int life, String name) {
+    public void AtributosVolador(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -22,5 +23,4 @@ public class Elefante implements Mamifero, Terrestre{
     public void AtributosTerrestre(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

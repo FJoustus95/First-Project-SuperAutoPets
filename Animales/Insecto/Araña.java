@@ -2,12 +2,14 @@
 package SuperAutoPets.Animales.Insecto;
 
 
-public class Escarabajo implements Insecto {
+public class Araña implements Insecto {
     
-    //Pertenece a tier 1
-    //Apetito: Otorga a las mascotas de la tienda +1/+2/+3 HP al comer comida de la tienda
+    //Pertenece a tier 2
+    //Liberación: invoca una mascota de nivel 1/2/3 de nivel 3 como 2/2 al morir
     
-    public Escarabajo() {
+    public Araña() {
+        
+        
         
     }
 
@@ -15,5 +17,4 @@ public class Escarabajo implements Insecto {
     public void AtributosInsecto(int attack, int liffe, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

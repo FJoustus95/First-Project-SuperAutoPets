@@ -1,16 +1,16 @@
 
 package SuperAutoPets.Animales.Terrestre;
 
-import SuperAutoPets.Animales.Acuatico.Acuatico;
+import SuperAutoPets.Animales.Mamifero.Mamifero;
 
 
-public class Castor implements Terrestre, Acuatico {
+public class Leopardo implements Terrestre, Mamifero {
     
-    //Pertenece a tier 1
-    //Represa: Da a 2 aliados al azar +1/+2/+3 HP al venderse
-    
-    public Castor() {
-     
+    //Pertenece a tier 6
+    //Zarpazo: al iniciar la batalla inflige 50 % de daño ATQ a 1/2/3 enemigos aleatorios 
+    public Leopardo() {
+        
+        
     }
 
     @Override
@@ -19,8 +19,7 @@ public class Castor implements Terrestre, Acuatico {
     }
 
     @Override
-    public void AtributosAcuatico(int attack, int life, String nombre) {
+    public void AtributosMamifero(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

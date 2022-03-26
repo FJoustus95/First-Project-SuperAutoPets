@@ -1,20 +1,21 @@
 
-package SuperAutoPets.Animales.Mamifero;
+package SuperAutoPets.Animales.Solitario;
 
 import SuperAutoPets.Animales.Terrestre.Terrestre;
 
 
-public class Elefante implements Mamifero, Terrestre{
+public class Lobo implements Solitario, Terrestre{
     
-    //Pertenece a tier 2
-    //Daño colateral: Inflige 1 daño a 1/2/3 amigos detrás antes de atacar
-    
-    public Elefante() {
+    //Pertenece a tier 3
+    //Aullido: Si es el último con vida gana (+2/+2)(+3,+3)(+5,+5) permanentemente
+   
+    public Lobo() {
+        
         
     }
 
     @Override
-    public void AtributosMamifero(int attack, int life, String name) {
+    public void AtributosSolitario(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -22,5 +23,4 @@ public class Elefante implements Mamifero, Terrestre{
     public void AtributosTerrestre(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

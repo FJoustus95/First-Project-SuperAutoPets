@@ -2,11 +2,14 @@
 package SuperAutoPets.Animales.Solitario;
 
 
-public class PuercoEspin implements Solitario {
+public class Mapache implements Solitario {
     
-    //Pertenece a tier 2 ( the hedhedog xd )
-    //Espinas salvajes: Repartir 2/4/6 dmg a todas las mascotas al morir
-    public PuercoEspin() {
+    //Pertenece a tier 3
+    //Repartir poder: Otorga 1x/2x/3x ATK a las mascotas adyacentes al morir
+    
+    public Mapache() {
+        
+        
         
     }
 
@@ -14,5 +17,4 @@ public class PuercoEspin implements Solitario {
     public void AtributosSolitario(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

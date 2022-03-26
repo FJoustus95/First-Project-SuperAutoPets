@@ -2,9 +2,7 @@
 package SuperAutoPets.Animales.Mamifero;
 
 
-public class Mamifero {
-    public Mamifero(int attack, int life, String nombre ) {
-        
-        
-    }
+public interface Mamifero {
+    public void AtributosMamifero(int attack, int life, String name);
+    
 }

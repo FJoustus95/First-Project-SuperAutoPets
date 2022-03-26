@@ -1,16 +1,18 @@
 
 package SuperAutoPets.Animales.Terrestre;
 
-import SuperAutoPets.Animales.Acuatico.Acuatico;
+import SuperAutoPets.Animales.Mamifero.Mamifero;
 
 
-public class Castor implements Terrestre, Acuatico {
+public class Jaguar implements Terrestre, Mamifero {
     
-    //Pertenece a tier 1
-    //Represa: Da a 2 aliados al azar +1/+2/+3 HP al venderse
+    //Pertenece a tier 5
+    //Venganza felina: Si el que está delante es atacado, daña al que lo atacó por (5)(10)(15) de daño
     
-    public Castor() {
-     
+    public Jaguar() {
+        
+        
+        
     }
 
     @Override
@@ -19,8 +21,7 @@ public class Castor implements Terrestre, Acuatico {
     }
 
     @Override
-    public void AtributosAcuatico(int attack, int life, String nombre) {
+    public void AtributosMamifero(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

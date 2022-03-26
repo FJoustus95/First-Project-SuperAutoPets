@@ -1,20 +1,22 @@
 
-package SuperAutoPets.Animales.Mamifero;
+
+package SuperAutoPets.Animales.Acuatico;
 
 import SuperAutoPets.Animales.Terrestre.Terrestre;
 
 
-public class Elefante implements Mamifero, Terrestre{
+public class Hipopotamo implements Acuatico, Terrestre {
     
-    //Pertenece a tier 2
-    //Daño colateral: Inflige 1 daño a 1/2/3 amigos detrás antes de atacar
+    //Pertenece a tier 4
     
-    public Elefante() {
+    //Robustez: Ganancia (+2/+2)/ (+4/+4) / (+6/+6) al ser él hipopotamo quien debilita a una mascota enemiga.
+    public Hipopotamo() {
+        
         
     }
 
     @Override
-    public void AtributosMamifero(int attack, int life, String name) {
+    public void AtributosAcuatico(int attack, int life, String nombre) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -22,5 +24,4 @@ public class Elefante implements Mamifero, Terrestre{
     public void AtributosTerrestre(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

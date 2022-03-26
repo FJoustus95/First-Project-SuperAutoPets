@@ -4,12 +4,12 @@ package SuperAutoPets.Animales.Mamifero;
 import SuperAutoPets.Animales.Terrestre.Terrestre;
 
 
-public class Elefante implements Mamifero, Terrestre{
+public class Jirafa implements Mamifero, Terrestre {
     
-    //Pertenece a tier 2
-    //Daño colateral: Inflige 1 daño a 1/2/3 amigos detrás antes de atacar
+    //Pertenece a tier 3
+    //Fortaleza aliada: Da 1/ 2 / 3 amigos por delante +1/+1 al finalizar el turno de compra
     
-    public Elefante() {
+    public Jirafa(){
         
     }
 
@@ -22,5 +22,4 @@ public class Elefante implements Mamifero, Terrestre{
     public void AtributosTerrestre(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

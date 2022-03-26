@@ -2,10 +2,7 @@
 package SuperAutoPets.Animales.Solitario;
 
 
-public class Solitario {
-    public Solitario(int attack, int life, String name) {
-        
-        
-        
-    }
+public interface Solitario {
+    public void AtributosSolitario(int attack, int life, String name);
+    
 }

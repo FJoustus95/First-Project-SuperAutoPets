@@ -2,12 +2,13 @@
 package SuperAutoPets.Animales.Volador;
 
 
-public class Mosquito implements Volador {
+public class Loro implements Volador{
     
-    //Pertenece a tier 1
-    //Piquete inicial: Al iniciar batalla realiza 1 de daño a (1)/(2)/(3) enemigos
-    
-    public Mosquito() {
+    //Pertenece a tier 4
+    //Copia: al finalizar el turno de compra copia la habilidad del amigo de adelante como lvl 1/2/3 hasta el final de la batalla
+    public Loro() {
+        
+        
         
     }
 
@@ -15,5 +16,4 @@ public class Mosquito implements Volador {
     public void AtributosVolador(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

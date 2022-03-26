@@ -1,20 +1,22 @@
 
-package SuperAutoPets.Animales.Mamifero;
+package SuperAutoPets.Animales.Desertico;
 
 import SuperAutoPets.Animales.Terrestre.Terrestre;
 
 
-public class Elefante implements Mamifero, Terrestre{
+public class Rinoceronte implements Desertico, Terrestre {
     
-    //Pertenece a tier 2
-    //Daño colateral: Inflige 1 daño a 1/2/3 amigos detrás antes de atacar
+    //Pertenece a tier 5
+    //Estampida: Inflige 4/8/12 de daño al primer enemigo
     
-    public Elefante() {
+    public Rinoceronte() {
+        
+        
         
     }
 
     @Override
-    public void AtributosMamifero(int attack, int life, String name) {
+    public void AtributosDesertico(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -22,5 +24,4 @@ public class Elefante implements Mamifero, Terrestre{
     public void AtributosTerrestre(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

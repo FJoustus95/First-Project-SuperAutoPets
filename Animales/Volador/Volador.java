@@ -2,9 +2,7 @@
 package SuperAutoPets.Animales.Volador;
 
 
-public class Volador {
-    public Volador(int attack, int life, String name ) {
-        
-        
-    }
+public interface Volador {
+    public void AtributosVolador(int attack, int life, String name);
+    
 }

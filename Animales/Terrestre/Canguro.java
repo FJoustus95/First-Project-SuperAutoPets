@@ -1,16 +1,17 @@
 
 package SuperAutoPets.Animales.Terrestre;
 
-import SuperAutoPets.Animales.Acuatico.Acuatico;
+import SuperAutoPets.Animales.Mamifero.Mamifero;
 
 
-public class Castor implements Terrestre, Acuatico {
+public class Canguro implements Terrestre, Mamifero {
     
-    //Pertenece a tier 1
-    //Represa: Da a 2 aliados al azar +1/+2/+3 HP al venderse
+    //Pertenece a tier 3
+    //Ya quiero pelear: Ganancia (+2/+2)/ (+4/+4) / (+6/+6) cada que la mascota aliada de delante ataque
     
-    public Castor() {
-     
+    public Canguro() {
+        
+        
     }
 
     @Override
@@ -19,8 +20,7 @@ public class Castor implements Terrestre, Acuatico {
     }
 
     @Override
-    public void AtributosAcuatico(int attack, int life, String nombre) {
+    public void AtributosMamifero(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

@@ -1,20 +1,22 @@
 
-package SuperAutoPets.Animales.Mamifero;
+package SuperAutoPets.Animales.Domestico;
 
 import SuperAutoPets.Animales.Terrestre.Terrestre;
 
 
-public class Elefante implements Mamifero, Terrestre{
+public class Oveja implements Domestico, Terrestre {
     
-    //Pertenece a tier 2
-    //Daño colateral: Inflige 1 daño a 1/2/3 amigos detrás antes de atacar
+    //Pertenece a tier 3
+    //Revolución: invoca dos (2/2)/ (4/4) / (6/6) carneros al morir
     
-    public Elefante() {
+    public Oveja() {
+        
+        
         
     }
 
     @Override
-    public void AtributosMamifero(int attack, int life, String name) {
+    public void AtributosDomestico(int attack, int life, String nombre) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -22,5 +24,4 @@ public class Elefante implements Mamifero, Terrestre{
     public void AtributosTerrestre(int attack, int life, String name) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
 }

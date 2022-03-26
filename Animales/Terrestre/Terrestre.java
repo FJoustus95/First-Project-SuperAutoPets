@@ -2,10 +2,7 @@
 package SuperAutoPets.Animales.Terrestre;
 
 
-public class Terrestre {
-    public Terrestre(int attack, int life, String name) {
-        
-        
-        
-    }
+public interface Terrestre {
+    public void AtributosTerrestre(int attack, int life, String name);
+    
 }
